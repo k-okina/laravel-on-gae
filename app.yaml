@@ -1,0 +1,9 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+beta_settings:
+    # for Cloud SQL, set this value to the Cloud SQL connection name,
+    cloud_sql_instances: "hogehoge-167999:us-central1:test"
